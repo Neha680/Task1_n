@@ -1,4 +1,6 @@
 # Task1_n
+JOB#1
+If Developer push to dev branch then Jenkins will fetch from dev and deploy on dev-docker environment.
 
 ![1](https://user-images.githubusercontent.com/64469502/85929172-3a5b6d00-b8d0-11ea-87a2-aa961aac9eef.png)
 
