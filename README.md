@@ -33,10 +33,16 @@ If Developer push to dev branch then Jenkins will fetch from dev and deploy on d
 
 ![3](https://user-images.githubusercontent.com/64469502/85929205-88707080-b8d0-11ea-8294-8b0026c7b2d9.png)
 
+JOB#2
+If Developer push to master branch then Jenkins will fetch from master and deploy on master-docke environment.
+both dev-docker and master-docker environment are on different docker containers.
 
 ![4](https://user-images.githubusercontent.com/64469502/85929193-768ecd80-b8d0-11ea-9e5f-762b1442cb5e.png)
 
 ![5](https://user-images.githubusercontent.com/64469502/85929218-a211b800-b8d0-11ea-9458-8db1cd20847b.png)
+
+JOB#3
+Manually the QA team will check (test) for the website running in dev-docker environment. If it is running fine then Jenkins will merge the dev branch to master branch and trigger #job 2
 
 ![6](https://user-images.githubusercontent.com/64469502/85929220-a6d66c00-b8d0-11ea-9c7d-3351460c0478.png)
 
