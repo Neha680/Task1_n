@@ -1,6 +1,31 @@
 # Task1_n
+ 
+#Git bash commands for pushing the code in github repo
+
+1. Open Git Bash
+2. Change the current working directory to your local project.
+3. Initialize the local directory as a Git repository.
+   
+   git init
+4. Add the files in your new local repository. This stages them for the first commit.
+   
+   git add .
+5. Commit the files that you’ve staged in your local repository.
+   
+   git commit -m "initial commit"
+6. Copy the https url of your newly created repo
+7. In the Command prompt, add the URL for the remote repository where your local repository will be pushed.
+
+   git remote add origin remote repository URL
+
+   git remote -v
+8. Push the changes in your local repository to GitHub.
+
+    git push -f origin master
+    
 JOB#1
 If Developer push to dev branch then Jenkins will fetch from dev and deploy on dev-docker environment.
+
 
 ![1](https://user-images.githubusercontent.com/64469502/85929172-3a5b6d00-b8d0-11ea-87a2-aa961aac9eef.png)
 
